@@ -1,0 +1,26 @@
+# Curvetopia Requirements
+
+# Core scientific computing libraries
+numpy==1.21.5
+scipy==1.7.3
+
+# Image processing libraries
+opencv-python==4.5.5.64
+scikit-image==0.19.2
+
+# Additional OpenCV modules
+opencv-contrib-python==4.5.5.64
+
+# Plotting and visualization (optional, but recommended for debugging)
+matplotlib==3.5.1
+
+# SVG handling (for output visualization)
+svgwrite==1.4.1
+
+# Cairo SVG (for rasterization, as mentioned in the original document)
+cairosvg==2.5.2
+
+# Potential future dependencies (commented out for now)
+# sympy==1.9  # For symbolic mathematics, might be useful for curve fitting
+# networkx==2.6.3  # For graph operations, potentially useful for curve analysis
+# shapely==1.8.0  # For geometric operations, might be helpful for advanced shape analysis
